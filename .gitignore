@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.launcher/assets/
+.launcher/defaultconfigs/
+.launcher/libraries/
+.launcher/logs/
+.launcher/saves/
+.launcher/journeymap/

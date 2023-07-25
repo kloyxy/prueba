@@ -1,0 +1,61 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Octopus Launcher</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font.css">
+    <meta name="viewport" content="width=device-width">
+    <script defer src="../appFunctions.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="centrado">
+      <h1>Welcome!</h1>
+      <p>Presiona el boton, inicia sesión y disfruta de nuestro Modded Launcher</p>
+  </div>
+
+    <div class="title-bar">
+      <span class="title">Octopus Launcher</span>
+      <div class="logo">
+        <img src="../../images/octopus_logo.png" alt="Octopus Logo">
+      </div>
+      <div class="controls">
+        <div class="control minimizeBtn" id="minimizeBtn"></div>
+        <div class="control closeBtn" id="closeBtn"></div>
+      </div>
+    </div>
+
+<label id="status"></label>
+<div id="fondo"></div>
+<div id="download-screen" style="display:none;" class="config">
+  <h1>Downloading:</h1>
+  <br>
+  <label id="descarga"></label>
+  <br>
+  <h3>No cierres Octopus Launcher hasta que se descargue los assets</h3>
+</div>
+<div class="center">
+<button id="launch" class="launch">
+  <img src="../../images/microsoft.png" alt="Microsoft Logo">
+   <span>Entrar</span>
+</button>
+
+
+  <button id="downloadJavaButton" class="downloadJavaButton">Descargar Java 18</button>
+
+</div>
+<div id="version">
+  <h1>Version 0.0.1</h1>
+</div>
+
+<script type="module" src="../renderer.js"></script>
+
+  </body>
+</html>

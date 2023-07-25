@@ -11,4 +11,4 @@ jobs:
     steps:
       - uses: actions/labeler@v4
         with:
-          repo-token: ${{ secrets.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 }}
+          repo-token: ${{ secrets.GH_TOKEN }}

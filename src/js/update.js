@@ -16,7 +16,7 @@ const updateOptions = {
     gitRepo: "prueba", // [Required] Your Repo Name
     gitUsername: "kloyxy",  // [Required] Your GitHub Username.
     IsGitRepoPrivate: true,
-    gitRepoToken: "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",
+    gitRepoToken: "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",
 
     appName: "Octopus Launcher", //[Required] The Name of the app archive and the app folder.
     appExecutableName: "Octopus Launcher.exe", //[Required] The Executable of the Application to be Run after updating.

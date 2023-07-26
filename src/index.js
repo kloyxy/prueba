@@ -15,11 +15,8 @@ function createWindow() {
     height: 650,
     frame: false,
     webPreferences: {
-      preload: path.join(__dirname, '/js/update.js'),
       contextIsolation: false,
       nodeIntegration: true,
-      nodeIntegrationInWorker: true,
-      enableRemoteModule: true
       //devTools: false
     },
     resizable: false

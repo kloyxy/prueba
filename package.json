@@ -1,11 +1,12 @@
 {
   "name": "octopus_launcher",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "./src/index.js",
   "scripts": {
     "start": "electron .",
-    "package": "electron-builder -p always"
+    "package": "electron-builder -p always",
+    "build": "electron-builder"
   },
   "author": "Octopus Launcher",
   "license": "ISC",
@@ -21,7 +22,7 @@
         "provider": "github",
         "owner": "kloyxy",
         "repo": "prueba",
-        "private": true
+        "private": false
       }
     ],
     "win": {

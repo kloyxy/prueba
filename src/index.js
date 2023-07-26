@@ -15,15 +15,16 @@ function createWindow() {
     height: 650,
     frame: false,
     webPreferences: {
+      preload: path.join(__dirname, '/js/update.js'),
       contextIsolation: false,
       nodeIntegration: true,
       nodeIntegrationInWorker: true,
+      enableRemoteModule: true
       //devTools: false
     },
     resizable: false
   })
-  
-  win.loadFile(__dirname + '/html/index.html')
+  win.loadFile(__dirname + '/html/main.html')
 
   ipcMain.on('minimizeApp',(event, data) => {
     win.minimize();
